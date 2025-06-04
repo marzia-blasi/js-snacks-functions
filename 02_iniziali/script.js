@@ -3,6 +3,8 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 let ris = "";
+const iniziali = [];
+
 // Dichiara la funzione qui.
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -18,5 +20,6 @@ for (let i = 0; i < names.length; i++) {
   //console.log(nameIthems);
   const iniziale = 1;
   ris = nameIthems.slice(0, iniziale);
+  iniziali.push(ris);
   console.log(ris);
 }
