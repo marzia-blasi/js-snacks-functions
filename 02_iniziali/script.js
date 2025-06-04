@@ -18,7 +18,7 @@ function inizialiPush() {
 }
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(inizialiPush);
+console.log(inizialiPush());
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
 
