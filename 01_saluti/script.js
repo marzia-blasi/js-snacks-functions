@@ -6,7 +6,7 @@ const userName = "Mario";
 
 function helloName(nome) {
   const salut = `Ciao ${userName} `;
-  return -salut;
+  return salut;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
