@@ -6,11 +6,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function inizialiPush(arraylist) {
   const iniziali = [];
   for (let i = 0; i < arraylist.length; i++) {
-    const ithems = arraylist[i];
-    const firstletter = ithems.charAt(0);
-    iniziali.push(firstletter);
-    return iniziali;
+    iniziali.push(arraylist[i].charAt(0));
   }
+  return iniziali;
 }
 // Invoca la funzione qui e stampa il risultato in console
 
