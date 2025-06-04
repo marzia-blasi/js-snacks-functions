@@ -2,6 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
+let ris = "";
 // Dichiara la funzione qui.
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -14,5 +15,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 for (let i = 0; i < names.length; i++) {
   const nameIthems = names[i];
-  console.log(nameIthems);
+  //console.log(nameIthems);
+  const iniziale = 1;
+  ris = nameIthems.slice(0, iniziale);
+  console.log(ris);
 }
