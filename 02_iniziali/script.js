@@ -13,5 +13,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // possibile che serva un ciclo per separare gli elementi ?
 
 for (let i = 0; i < names.length; i++) {
-  console.log(names[i]);
+  const nameIthems = names[i];
+  console.log(nameIthems);
 }
